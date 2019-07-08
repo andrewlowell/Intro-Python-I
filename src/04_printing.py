@@ -12,7 +12,7 @@ z = "I like turtles!"
 # y, and z:
 # x is 10, y is 2.25, z is "I like turtles!"
 
-print("x is " + str(x) + ", y is " + str(y) + ", z is \"" + z + "\"")
+print("x is %i" % x + ", y is %f" % y + ", z is \"%s\"" % z)
 
 # Use the 'format' string method to print the same thing
 
