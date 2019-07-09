@@ -23,6 +23,7 @@ f.close()
 # YOUR CODE HERE
 
 f = open("bar.txt", "w")
-f.write("This is line one, yo\n")
-f.write("This is line two, yo\nThis is line three, yo\n")
+f.write("""This is line one, yo
+This is line two, yo
+This is line three, yo\n""")
 f.close()
